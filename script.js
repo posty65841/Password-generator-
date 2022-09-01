@@ -21,20 +21,20 @@ function generatePassword(){
     let userSelectedOptions = [];
     
     if(confirm("Would you like lowercase characters?")) {
-        userSelectedOptions = userSelectedOptions.concat(lowerCaseAlphabet); 
+        userSelectedOptions = userSelectedOptions.concat(lowerCaseAlphabet);  // if confirmed user will get lowercase 
     }
     
     if(confirm("Would you like uppercase characters?")) {
-        userSelectedOptions = userSelectedOptions.concat(upperCaseAlphabet);
+        userSelectedOptions = userSelectedOptions.concat(upperCaseAlphabet); // if confirmed user will get uppercase
     }
 
     // special
     if(confirm("Would you like special charaters?")) {
-        userSelectedOptions = userSelectedOptions.concat(specialCharacter);
+        userSelectedOptions = userSelectedOptions.concat(specialCharacter); // if confirmed user will get special characters 
     }
     // numeric
     if(confirm("Would you like nuimeric charaters?")) {
-        userSelectedOptions = userSelectedOptions.concat(numericNum);
+        userSelectedOptions = userSelectedOptions.concat(numericNum); // if confirmed user will get numbers 
     }
 
     // console.log(userSelectedOptions);
