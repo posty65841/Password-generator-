@@ -49,10 +49,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+ this project is  pass word generator that allows a user to select 
+ Uppercase, Lowercase, numeric characters & special characters 
+ it also allows a user to select the length on the password 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
- `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +81,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Austin Post  -  - austin.post.ap@gmial.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
