@@ -42,7 +42,7 @@ function generatePassword(){
      
      let password = ""
      
-     if (userSelectedOptions.length > 0) {
+     if ((userSelectedOptions.length > 0) && (characterlimit >= 8) && (characterlimit <= 128)) {
         for (let i = 0; i < characterlimit; i++) {   //this is what prints out the actual letter 
             let randomNumber = Math.floor(Math.random()*userSelectedOptions.length); //picks random letter from the lower case alphabet
             let randomLetter = userSelectedOptions[randomNumber];        // uses random letter from the lower case alphabet 
