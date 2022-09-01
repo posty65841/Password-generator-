@@ -81,7 +81,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Austin Post  -  - austin.post.ap@gmial.com
+Austin Post  -  - austin.post.ap@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
