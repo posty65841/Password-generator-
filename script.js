@@ -16,21 +16,26 @@ let passwordText = document.querySelector("#password");
 
 function generatePassword(){
     
-    prompt ("How Long of a password?")
-
+    let characterlimit = prompt("How Long of a password?")
+    
     let userSelectedOptions = [];
-
+    
     if(confirm("Would you like lowercase characters?")) {
-        userSelectedOptions = userSelectedOptions.concat(lowerCaseAlphabet);
+        userSelectedOptions = userSelectedOptions.concat(lowerCaseAlphabet); 
     }
-
+    
     if(confirm("Would you like uppercase characters?")) {
         userSelectedOptions = userSelectedOptions.concat(upperCaseAlphabet);
     }
 
     // special
-
+    if(confirm("Would you like special charaters?")) {
+        userSelectedOptions = userSelectedOptions.concat(specialCharacter);
+    }
     // numeric
+    if(confirm("Would you like nuimeric charaters?")) {
+        userSelectedOptions = userSelectedOptions.concat(numericNum);
+    }
 
     // console.log(userSelectedOptions);
 
@@ -38,7 +43,7 @@ function generatePassword(){
      let password = ""
      
      if (userSelectedOptions.length > 0) {
-        for (let i = 0; i < 5; i++) {   //this is what prints out the actual letter 
+        for (let i = 0; i < characterlimit; i++) {   //this is what prints out the actual letter 
             let randomNumber = Math.floor(Math.random()*userSelectedOptions.length); //picks random letter from the lower case alphabet
             let randomLetter = userSelectedOptions[randomNumber];        // uses random letter from the lower case alphabet 
             password += randomLetter  
